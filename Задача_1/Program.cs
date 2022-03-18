@@ -40,4 +40,10 @@
 
 // }
 
-//Задача 12
+//Задача 12: Удалить вторую цифру трехзначного числа
+
+int a = new Random().Next(100,1000);
+Console.WriteLine(a);
+int first = a/100;
+int last = a%10;
+Console.WriteLine($"{first}, {last}");
