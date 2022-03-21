@@ -42,8 +42,42 @@
 
 //Задача 12: Удалить вторую цифру трехзначного числа
 
-int a = new Random().Next(100,1000);
-Console.WriteLine(a);
-int first = a/100;
-int last = a%10;
-Console.WriteLine($"{first}, {last}");
+// int a = new Random().Next(100,1000);
+// Console.WriteLine(a);
+// int first = a/100;
+// int last = a%10;
+// Console.WriteLine($"{first}, {last}");
+
+//Задача 14: Найти третью цифру числа или сообщить что ее нет.
+
+// Console.Write("Введите число: ");
+//  string strl = Console.ReadLine();
+//   if (strl.Length>2)
+//  {
+//     strl = strl.Substring(2,1);
+//  }
+// else
+// {
+//     Console.WriteLine("Третьей цифры в числе нет");
+// }
+ 
+
+//  Console.WriteLine(strl);
+
+//Задача 18: Дано число, обозначающее день недели.Выяснить, является ли новер дня недели выходным
+
+// Console.Write("Введите число дня недели: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if((num>0)&& (num<6))
+// {
+//     Console.WriteLine("Это рабочий день!");
+// }
+// else if (num==6 || num==7)
+// {
+//     Console.WriteLine("Ура, выходной!");
+// }
+// else
+// {
+//     Console.WriteLine("Неверный номер дня!");
+// }
