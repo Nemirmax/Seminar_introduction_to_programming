@@ -176,26 +176,48 @@
 // if (IsPalindrome(txtToCheck)) result = "является";
 // Console.WriteLine($"Введенное значение {result} палиндромом");
 // System.Console.WriteLine();
-// 25. Напишите цикл, который принимает на вход два числа (А и Б) и возводит
+// Задача 25. Напишите цикл, который принимает на вход два числа (А и Б) и возводит
 // число А в натуральную степень В
-Console.Clear();
-System.Console.WriteLine();
+// Console.Clear();
+// System.Console.WriteLine();
 
-int number = 2;
-int exponent = 10;
+// int number = 2;
+// int exponent = 10;
 
-int GetExponentiation(int number, int exponent)
-{
-    int count = 1;
-    int result = number;
-    while (count < exponent)
-    {
-        result = result * number;
-        count++;
-    }
-    return result;
-}
+// int GetExponentiation(int number, int exponent)
+// {
+//     int count = 1;
+//     int result = number;
+//     while (count < exponent)
+//     {
+//         result = result * number;
+//         count++;
+//     }
+//     return result;
+// }
 
-int result = GetExponentiation(number, exponent);
-System.Console.WriteLine($"{number} ^ {exponent} = {result}");
-System.Console.WriteLine();
+// int result = GetExponentiation(number, exponent);
+// System.Console.WriteLine($"{number} ^ {exponent} = {result}");
+// System.Console.WriteLine();
+
+// 29. Задать массив из 8 элементов и вывести их на экран
+
+// int N = 8;
+
+// int[] SetArray(int x)
+// {
+//     int[] arr = new int[x];
+//     for (int i = 0; i < x; i++)
+//     {
+//         arr[i] = new Random().Next(1, 100);
+//     }
+//     return arr;
+// }
+
+// void PrintArray(int[] array)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//         System.Console.Write($"{array[i]} ");
+// }
+
+// PrintArray(SetArray(N));
