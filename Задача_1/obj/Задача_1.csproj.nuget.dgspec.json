@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_4 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj": {}
+    "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_5 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_4 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj": {
+    "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_5 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_4 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj",
+        "projectUniqueName": "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_5 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj",
         "projectName": "Задача_1",
-        "projectPath": "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_4 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj",
+        "projectPath": "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_5 семинар\\Seminar_introduction_to_programming\\Задача_1\\Задача_1.csproj",
         "packagesPath": "C:\\Users\\79256\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_4 семинар\\Seminar_introduction_to_programming\\Задача_1\\obj\\",
+        "outputPath": "C:\\Users\\79256\\OneDrive\\Рабочий стол\\Знакомство с программированием\\ДЗ_5 семинар\\Seminar_introduction_to_programming\\Задача_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\79256\\AppData\\Roaming\\NuGet\\NuGet.Config"
