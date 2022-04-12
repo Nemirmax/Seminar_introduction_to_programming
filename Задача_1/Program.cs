@@ -290,18 +290,53 @@
 
 // Задача 41. Посчитать, сколько чисел больше 0 введено с клавиатуры
 
-Console.Clear();
-System.Console.WriteLine();
-int volume = 10;                // колчество ввода чисел
-int count = 0;
+// Console.Clear();
+// System.Console.WriteLine();
+// int volume = 10;                // колчество ввода чисел
+// int count = 0;
 
-while (volume > 0)
-{
-    System.Console.Write("Введите число:   ");
-    string num = Console.ReadLine();
-    int number = Convert.ToInt32(num);
-    if (number > 0) count++;
-    volume--;
-}
+// while (volume > 0)
+// {
+//     System.Console.Write("Введите число:   ");
+//     string num = Console.ReadLine();
+//     int number = Convert.ToInt32(num);
+//     if (number > 0) count++;
+//     volume--;
+// }
 
-System.Console.WriteLine($"Количество чисел больше 0: {count}");
+// System.Console.WriteLine($"Количество чисел больше 0: {count}");
+
+// Задача 49. Показать двумерный массив размером m×n заполненный вещественными числами
+
+// Console.Clear();
+// System.Console.WriteLine();
+
+// double[,] GetTableDouble(int m, int n)
+// {
+//     double[,] table = new double[m, n];
+//     for (int i = 0; i < table.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < table.GetLength(1); j++)
+//         {
+//             table[i, j] = new Random().NextDouble() * 100;
+//         }
+//     }
+//     return table;
+// }
+
+// void PrintTable(double[,] tab)
+// {
+//     for (int i = 0; i < tab.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < tab.GetLength(1); j++)
+//         {
+//             System.Console.Write(tab[i, j] + "    ");
+//         }
+//         System.Console.WriteLine();
+//     }
+// }
+
+// int m = 8;
+// int n = 4;
+// double[,] TableDouble = GetTableDouble(m, n);
+// PrintTable(TableDouble);
